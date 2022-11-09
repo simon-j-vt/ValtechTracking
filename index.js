@@ -6,13 +6,6 @@ const buttons = document.querySelectorAll("button");
     function () {
       //Lägg in och fyll datalagret vid checkout
 
-
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-5HM1D50EBH');
-
       window.location =
         "thankyou.html?product=" +
         button.getAttribute("data-product") +
